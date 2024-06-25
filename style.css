@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.tetx {
+  font-family: "Poppins", sans-serif;
+}
+.btn-f {
+  border: 2px solid #316cf4;
+  font-family: "Poppins", sans-serif;
+  margin-top: 30px;
+}
+.btn-f:hover {
+  background-color: #fff;
+  color: #316cf4;
+  transition: 0.8s;
+}
+.dfg {
+  border: 2px solid #68708b;
+}
+.dfg:hover {
+  cursor: pointer;
+  background-color: #68708b;
+  transition: 0.8s;
+}
+
+.dfg:hover i {
+  color: #fff;
+  transition: 0.8s;
+}
+.dfgg {
+  border: 2px solid rgb(210, 24, 24);
+}
+.dfgg:hover {
+  cursor: pointer;
+  background-color: rgb(210, 24, 24);
+  transition: 0.8s;
+}
+
+.dfgg:hover i {
+  color: #fff;
+  transition: 0.8s;
+}
+
+.dfgg i {
+  color: rgb(210, 24, 24);
+}
+.student-text {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+/* .modal {
+  display: none;
+  position: fixed;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+} */
+@media (max-width: 700px) {
+  .ring {
+    text-transform: none;
+    font-size: 12px;
+  }
+}
